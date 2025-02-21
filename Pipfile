@@ -12,12 +12,14 @@ nbformat = "*"
 ipykernel = "*"
 scikit-learn = "*"
 ipywidgets = "*"
-sweetviz = "*"
 flask = "*"
 pydantic = "*"
 flask-pydantic = "*"
 pyarrow = "*"
 optuna = "*"
+numpy = "*"
+sweetviz = "*"
+seaborn = "*"
 
 [dev-packages]
 
