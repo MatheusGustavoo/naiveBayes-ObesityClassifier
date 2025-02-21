@@ -51,24 +51,4 @@ A clínica de endocrinologia deseja validar se esse conjunto de dados pode ser u
 
 - Modelo treinado salvo com **joblib** para uso futuro.
 
-## Como Executar o Projeto
-
-1. Clone o repositório
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   cd nome-do-repositorio
-   ```
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Execute o script de treinamento do modelo:
-   ```bash
-   python myobesitymodel.py
-   ```
-4. Utilize o modelo treinado para previsões futuras carregando-o com:
-   ```python
-   import joblib
-   modelo = joblib.load('modelo_obesity.pkl')
-   ```
 
